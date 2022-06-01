@@ -73,8 +73,8 @@ form.sign-in-form {
   color:#0a192f;
   margin-bottom: 10px;
   /* text-shadow: 4px 6px 25px rgba(10, 25, 47, 1);   */
-  -webkit-animation: vibrate-1 1.5s linear infinite both;
-	        animation: vibrate-1 1.5s linear infinite both;
+  /* -webkit-animation: vibrate-1 1.5s linear infinite both;
+	        animation: vibrate-1 1.5s linear infinite both; */
 }
 
  @-webkit-keyframes vibrate-1 {

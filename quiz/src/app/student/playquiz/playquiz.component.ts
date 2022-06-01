@@ -43,17 +43,17 @@ export class PlayquizComponent implements OnInit {
       this.myurl = this.router.url;
       // console.log(this.myurl);
 
-      window.addEventListener('blur', event => {
-        if (this.myurl === "/student/playquiz" && this.finalsubmit == false) {
-          this.block()
-        }
-      });
+      // window.addEventListener('blur', event => {
+      //   if (this.myurl === "/student/playquiz" && this.finalsubmit == false) {
+      //     this.block()
+      //   }
+      // });
 
-      window.addEventListener('resize', event => {
-        if (this.myurl === "/student/playquiz" && this.finalsubmit == false) {
-          this.block()
-        }
-      });
+      // window.addEventListener('resize', event => {
+      //   if (this.myurl === "/student/playquiz" && this.finalsubmit == false) {
+      //     this.block()
+      //   }
+      // });
 
 
     }
